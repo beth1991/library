@@ -44,6 +44,18 @@ class BootStrap {
 	endDate:new Date('19/09/2020'),
 
 	description:'''Lorem ipsum dolor sit amet, ad sea solum brute sensibus,te summo senserit vix, mel reque corpora vulputate ei.''').save()
+
+
+	def library1 = new Library(location:'City Campus',
+
+				openingHours:'0900hrs to 1900hrs',
+
+				book:'Dummies Guide to Programming',
+
+				student:'Bethany Tibbles-Hammond',
+
+				librarian:'''Mrs L Jones.''').save()
+
     }
     def destroy = {
     }

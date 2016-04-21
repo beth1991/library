@@ -16,7 +16,7 @@ class Library {
 
 	String toString(){
 
-	"$location,$student,$librarian"
+	"$location,$openingHours"
 	}
     static constraints = {
 

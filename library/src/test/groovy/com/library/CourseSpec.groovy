@@ -23,6 +23,6 @@ class CourseSpec extends Specification {
 				department:'Computing')
 	then: "the toString method will merge them."
 	
-	course.toString()=='Games Software Design,GSD401,Computing'
+	course.toString()=="Games Software Design,GSD401,Computing"
     }
 }
